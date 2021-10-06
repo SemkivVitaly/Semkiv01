@@ -3,7 +3,7 @@
 
 #define days 31
 #define p_min 740
-#define p_max 760
+#define p_max 780
 #define p_norm 760
 
 int pressure[31];
