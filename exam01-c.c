@@ -35,12 +35,7 @@ struct element *add()
 
 int main()
 {
-//na 3 - "Имеется тектовый файл, в нем слова отделены пробелами
-//все слава даны в одну строчку постороить односвязный список таким
-//образом чтобы слова не повторялись,..
-//.. и для каждого слова указать сколько оно раз повторяется и вывести список на экран"
-//na 4 - "Найти минимальное и максимальное значение повторяющихся слов и вывести"
-//na 5 - "Список выведеный на экран сохранить в файл"
+
   FILE *f = fopen("exam1.txt", "r");
   while(1)
   {
@@ -67,14 +62,19 @@ int main()
   while (current != NULL)
   {
     fprintf(fw ,"%s %d\n", current->word, current->count);
+    printf("%s %d\n", current->word, current->count);
     if(current->count <= minWord) minWord = current->count;
     if(current->count >= maxWord) maxWord = current->count;
     struct element *next = current->next;
     free(current);
     current = next;
   }
+  printf("min: %d\n", minWord);
+  printf("min: %d\n", maxWord);
   fprintf(fw ,"min: %d\n", minWord);
   fprintf(fw ,"min: %d\n", maxWord);
+
+
 
   fclose(fw);
 
