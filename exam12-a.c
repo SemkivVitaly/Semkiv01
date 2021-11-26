@@ -1,8 +1,3 @@
-zadacha 12
-
-//na 3 - ""
-//na 4 - ""
-//na 5 - ""
 
 #include <stdlib.h>
 #include <stdio.h>
