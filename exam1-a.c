@@ -36,7 +36,7 @@ struct element *add()
 
 int main()
 {
-	FILE *f = fopen("ezam_bilet1/ezam_bilet1.txt", "r");
+	FILE *f = fopen("exam1.txt", "r");
 	while(1)
 	{
 		char temp[max_word];
