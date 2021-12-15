@@ -1,0 +1,11 @@
+D:\Новая папка\task4\task4\bin\Debug\task4.exe.config
+D:\Новая папка\task4\task4\bin\Debug\task4.exe
+D:\Новая папка\task4\task4\bin\Debug\task4.pdb
+D:\Новая папка\task4\task4\obj\Debug\task4.csproj.AssemblyReference.cache
+D:\Новая папка\task4\task4\obj\Debug\task4.csproj.SuggestedBindingRedirects.cache
+D:\Новая папка\task4\task4\obj\Debug\task4.Form1.resources
+D:\Новая папка\task4\task4\obj\Debug\task4.Properties.Resources.resources
+D:\Новая папка\task4\task4\obj\Debug\task4.csproj.GenerateResource.cache
+D:\Новая папка\task4\task4\obj\Debug\task4.csproj.CoreCompileInputs.cache
+D:\Новая папка\task4\task4\obj\Debug\task4.exe
+D:\Новая папка\task4\task4\obj\Debug\task4.pdb
